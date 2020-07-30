@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const path =require("path")
 const app = express();
 
-
+app.use(express.static("public"))
 app.get("/",function(req,res){
   res.render("home");
 })
