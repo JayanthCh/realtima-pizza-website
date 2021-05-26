@@ -1,0 +1,4 @@
+we created session  and use it as app.use
+
+in mongoStore we created a new collection called session to store cookie in Database
+we passed mongoStore to session  to save session in MongoStore

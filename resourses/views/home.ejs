@@ -19,134 +19,26 @@
 
  <div class="grid-container">
 
+<% pizzass.forEach(function(pizza){ %>
 
-   <div class="card" style="width: 19rem;">
-   <img src="img/pizza.png" class="card-img-top" alt="...">
-   <div class="card-body">
-     <h5 class="card-title">Margerita</h5>
-     <p class="size">small</p>
-     <div class="price">
-       <p class="money">Rs100</p>
-       <button class="add-to-cart">
-         <span>+</span>
-         <span>Add</span>
-       </button>
-     </div>
+  <div class="card" style="width: 19rem;">
+    <img src="img/<%=pizza.image%>" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><%=pizza.name%></h5>
+      <p class="size"><%=pizza.size%></p>
+      <div class="price">
+        <p class="money">Rs. <%=pizza.price%></p>
+        <button data-pizza="<%= JSON.stringify(pizza) %>" class="add-to-cart">
+          <span>+</span>
+          <span>Add</span>
+        </button>
+      </div>
 
-   </div>
- </div>
-
- <div class="card" style="width: 19rem;">
- <img src="img/pizza.png" class="card-img-top" alt="...">
- <div class="card-body">
-   <h5 class="card-title">Margerita</h5>
-   <p class="size">small</p>
-   <div class="price">
-     <p class="money">Rs100</p>
-     <button class="add-to-cart">
-       <span>+</span>
-       <span>Add</span>
-     </button>
-   </div>
-
- </div>
-</div>
-
-<div class="card" style="width: 19rem;">
-<img src="img/pizza.png" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Margerita</h5>
-  <p class="size">small</p>
-  <div class="price">
-    <p class="money">Rs100</p>
-    <button class="add-to-cart">
-      <span>+</span>
-      <span>Add</span>
-    </button>
+    </div>
   </div>
 
-</div>
-</div>
+<% }) %>
 
-<div class="card" style="width: 19rem;">
-<img src="img/pizza.png" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Margerita</h5>
-  <p class="size">small</p>
-  <div class="price">
-    <p class="money">Rs100</p>
-    <button class="add-to-cart">
-      <span>+</span>
-      <span>Add</span>
-    </button>
-  </div>
-
-</div>
-</div>
-
-<div class="card" style="width: 19rem;">
-<img src="img/pizza.png" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Margerita</h5>
-  <p class="size">small</p>
-  <div class="price">
-    <p class="money">Rs100</p>
-    <button class="add-to-cart">
-      <span>+</span>
-      <span>Add</span>
-    </button>
-  </div>
-
-</div>
-</div>
-
-<div class="card" style="width: 19rem;">
-<img src="img/pizza.png" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Margerita</h5>
-  <p class="size">small</p>
-  <div class="price">
-    <p class="money">Rs100</p>
-    <button class="add-to-cart">
-      <span>+</span>
-      <span>Add</span>
-    </button>
-  </div>
-
-</div>
-</div>
-
-<div class="card" style="width: 19rem;">
-<img src="img/pizza.png" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Margerita</h5>
-  <p class="size">small</p>
-  <div class="price">
-    <p class="money">Rs100</p>
-    <button class="add-to-cart">
-      <span>+</span>
-      <span>Add</span>
-    </button>
-  </div>
-
-</div>
-</div>
-
-<div class="card" style="width: 19rem;">
-<img src="img/pizza.png" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Margerita</h5>
-  <p class="size">small</p>
-  <div class="price">
-    <p class="money">Rs100</p>
-    <button class="add-to-cart">
-      <span>+</span>
-      <span>Add</span>
-    </button>
-  </div>
-
-</div>
-</div>
 
 
 

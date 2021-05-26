@@ -96,12 +96,12 @@ h1{
   width: 200px;
   margin: 10px auto;
 }
-.card-title {
-align-content: center;
-padding-left: 60px;
+.card .card-title {
+text-align:center;
+
 }
-.size{
-  padding-left: 80px;
+.card.size{
+  text-align: center;
 }
 .price{
   justify-content: space-around;
